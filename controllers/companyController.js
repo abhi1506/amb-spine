@@ -1,5 +1,5 @@
 const Company = require('../models/Company');
-const cloudinary = require('cloudinary').v2;
+
 // Create a new company
 exports.createCompany = async (req, res) => {
   try {
